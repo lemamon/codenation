@@ -1,0 +1,32 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  max-width: 60vw;
+  margin: 20px;
+}
+
+@media (min-width: 768px) {
+  .item {
+    max-width: 360px;
+  }
+}
+
+.item > img {
+  width: 100%;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+}
